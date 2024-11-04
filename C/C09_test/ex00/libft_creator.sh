@@ -1,0 +1,14 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    libft_creator.sh                                   :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: thtricar <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/07/18 06:38:03 by thtricar          #+#    #+#              #
+#    Updated: 2024/07/18 06:38:07 by thtricar         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+cc -Wall -Werror -Wextra -c ft_putchar.c ft_putstr.c ft_strcmp.c ft_strlen.c ft_swap.c
+ar -rcs libft.a ft_putchar.o ft_putstr.o ft_strcmp.o ft_strlen.o ft_swap.o
